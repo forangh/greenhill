@@ -60,7 +60,24 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: henry_yue
+disqus_username: 
+
+# Enable / Disable Giscus comments
+  giscus             = true
+  giscusJsUrl        = "https://giscus.app/client.js"
+  giscusRepository   = "forangh/greenhill"
+  giscusRepositoryId = "R_kgDOIOQQFg"
+  giscusMapping      = "pathname"
+  giscusCategory     = "General"
+  giscusCategoryId   = "DIC_kwDOIOQQFs4CSBmB"
+  data-strict        = "0"
+  data-reactions-enabled = "1"
+  data-input-position= "bottom"
+  giscusTheme        = "light"
+  giscusReactions    = "1"
+  giscusEmitMetadata = "0"
+  giscusLanguage     = "zh-CN"
+  giscusCrossOrigin  = "anonymous"
 
 # Netease settings
 netease_comment: false
